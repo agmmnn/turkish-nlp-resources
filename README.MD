@@ -1,4 +1,4 @@
-![](https://user-images.githubusercontent.com/16024979/164789225-7468c77e-8816-406a-9987-44aa8d47ec47.png "Türkçe Natural Language Processing @agmmnn")
+![](https://user-images.githubusercontent.com/16024979/164789225-7468c77e-8816-406a-9987-44aa8d47ec47.png "Türkçe Natural Language Processing, artwork: 'Mihrap, Osman Hamdi Bey'")
 
 <div align="center">
 <h2><b>Turkish NLP Resources</b></h2>
@@ -17,12 +17,14 @@ Turkish NLP (Türkçe Doğal Dil İşleme) related Tools, Libraries, Models, Dat
 - [Zemberek-NLP](https://github.com/ahmetaa/zemberek-nlp) (Java) : Zemberek-NLP provides Natural Language Processing tools for Turkish.
 - [Zemberek-Python](https://github.com/Loodos/zemberek-python) (Python) : Python implementation of Zemberek.
 - [Zemberek-Server](https://github.com/cbilgili/zemberek-nlp-server) (Docker) : REST Docker Server on Zemberek Turkish NLP Java Library.
-- [sadedegel](https://github.com/GlobalMaksimum/sadedegel) (Python) : SadedeGel is initially designed to be a library for unsupervised extraction-based news summarization using several old and new NLP techniques.
+- [Mukayese](https://github.com/alisafaya/mukayese) (Python) : is a benchmarking platform for various Turkish NLP tools and tasks, ranging from Spell-checking to NLU tasks.
+- [SadedeGel](https://github.com/GlobalMaksimum/sadedegel) (Python) : is initially designed to be a library for unsupervised extraction-based news summarization using several old and new NLP techniques.
 - [Turkish Stemmer](https://github.com/otuncelli/turkish-stemmer-python/) (Python) : Stemmer algorithm for Turkish language.
-- [Mukayese](https://github.com/alisafaya/mukayese) (Python) : Turkish NLP Strikes Back.
 - [sinKAF](https://github.com/eonurk/sinkaf) (Python) : An ML library for profanity detection in Turkish sentences.
 - [TrTokenizer](https://github.com/apdullahyayik/TrTokenizer) (Python) : Sentence and word tokenizers for the Turkish language.
 - [VNLP](https://github.com/vngrs-ai/vnlp) (Python) : State of the art, lightweight NLP tools for Turkish language.
+- Tools for Turkish provided by Starlang (Multi/Python) : [Morphological Analysis](https://github.com/StarlangSoftware/TurkishMorphologicalAnalysis-Py), [Spell Checker](https://github.com/StarlangSoftware/TurkishSpellChecker-Py), [Dependency Parser](https://github.com/StarlangSoftware/TurkishDependencyParser-Py), [Deasciifier](https://github.com/StarlangSoftware/TurkishDeasciifier-Py), [NER](https://github.com/StarlangSoftware/TurkishNamedEntityRecognition-Py).
+- [snnclsr/NER](https://github.com/snnclsr/ner) (Python) : Named Entity Recognition system for the Turkish Language.
 
 <div align="right">
     <b><a href="#contents">↥ Back To Top</a></b>
@@ -30,8 +32,8 @@ Turkish NLP (Türkçe Doğal Dil İşleme) related Tools, Libraries, Models, Dat
 
 ## Models
 
-- [BERTurk](https://github.com/stefan-it/turkish-bert) : Turkish BERT/DistilBERT, ELECTRA and ConvBERT models.
-- [ELMO For ManyLangs](https://github.com/ericxsun/ELMoForManyLangs) : Pre-trained ELMo Representations for Many Languages.
+- [BERTurk](https://huggingface.co/dbmdz/bert-base-turkish-cased) : Turkish BERT/DistilBERT, ELECTRA and ConvBERT models. [![][repo]](https://github.com/stefan-it/turkish-bert)
+- [ELMO For ManyLangs](https://github.com/HIT-SCIR/ELMoForManyLangs) : Pre-trained ELMo Representations for Many Languages.
 - [Fasttext - Word Vector](https://fasttext.cc/docs/en/crawl-vectors.html) : Pre-trained word vectors for 157 languages, trained on Common Crawl and Wikipedia using fastText.
 - [Loodos/Turkish Language Models](https://github.com/Loodos/turkish-language-models) : In this repository, we publish Transformer based Turkish language models and related tools.
 - [Hugging Face - Models/Turkish](https://huggingface.co/models?search=turkish)
@@ -51,6 +53,7 @@ Turkish NLP (Türkçe Doğal Dil İşleme) related Tools, Libraries, Models, Dat
 - [Amazon MASSIVE](https://www.amazon.science/blog/amazon-releases-51-language-dataset-for-language-understanding) : MASSIVE is a parallel dataset of > 1M utterances across 51 languages with annotations for the Natural Language Understanding tasks of intent prediction and slot annotation. [![][repo]](https://github.com/alexa/massive)
 - [OPUS: en-tr](https://opus.nlpl.eu/index.php?src=en&trg=tr) : OPUS is a growing collection of translated texts from the web. In the OPUS project we try to convert and align free online data, to add linguistic annotation, and to provide the community with a publicly available parallel corpus.
 - [CC-100](https://data.statmt.org/cc-100/) : Monolingual Datasets from Web Crawl Data. This corpus comprises of monolingual data for 100+ languages.
+- [OSCAR](https://oscar-corpus.com/) : is a huge multilingual corpus obtained by language classification and filtering of the Common Crawl corpus using the Ungoliant architecture.
 
 ### Treebank:
 
@@ -60,11 +63,13 @@ Turkish NLP (Türkçe Doğal Dil İşleme) related Tools, Libraries, Models, Dat
 
 ### Other Data:
 
-- [Frequency Word List](https://github.com/hermitdave/FrequencyWords)
+- [hermitdave/Frequency Word List](https://github.com/hermitdave/FrequencyWords)
 - [Fırat University - Veri Setleri](http://buyukveri.firat.edu.tr/veri-setleri/)
 - [Bilkent Turkish Writings Dataset](https://github.com/selimfirat/bilkent-turkish-writings-dataset)
-- [Bad Word Blacklist for Turkish](https://github.com/ooguz/turkce-kufur-karaliste)
 - [170k Turkish Sentences from Wikipedia](https://www.kaggle.com/datasets/mahdinamidamirchi/turkish-sentences-dataset)
+- [ooguz/Bad Word Blacklist for Turkish](https://github.com/ooguz/turkce-kufur-karaliste)
+- [ahmetax/Turkish Stop Words List](https://github.com/ahmetax/trstop)
+- [NLTK - Stop Words](https://www.nltk.org/book/ch02.html#wordlist-corpora)
 
 ### Other Sources:
 
@@ -99,8 +104,9 @@ Turkish NLP (Türkçe Doğal Dil İşleme) related Tools, Libraries, Models, Dat
 
 ### Sample Notebooks:
 
-- [Turkish News Category Classification Tutorial](https://github.com/kodiks/turkish-news-classification)
-- [Turkish Tweets Sentiment Analysis](https://github.com/ezgisubasi/turkish-tweets-sentiment-analysis)
+- [kodiks/Turkish News Category Classification Tutorial](https://github.com/kodiks/turkish-news-classification)
+- [ezgisubasi/Turkish Tweets Sentiment Analysis](https://github.com/ezgisubasi/turkish-tweets-sentiment-analysis)
+- [merveenoyan/NLP için Derlediğim Fonksiyonlar](https://github.com/merveenoyan/NLP-Helpers)
 
 ### Blog Posts:
 
