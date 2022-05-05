@@ -23,7 +23,7 @@ Turkish NLP (Türkçe Doğal Dil İşleme) related Tools, Libraries, Models, Dat
 - [sinKAF](https://github.com/eonurk/sinkaf) (Python) : An ML library for profanity detection in Turkish sentences.
 - [TrTokenizer](https://github.com/apdullahyayik/TrTokenizer) (Python) : Sentence and word tokenizers for the Turkish language.
 - [VNLP](https://github.com/vngrs-ai/vnlp) (Python) : State of the art, lightweight NLP tools for Turkish language.
-- Tools for Turkish provided by Starlang (Multi/Python) : [Morphological Analysis](https://github.com/StarlangSoftware/TurkishMorphologicalAnalysis-Py), [Spell Checker](https://github.com/StarlangSoftware/TurkishSpellChecker-Py), [Dependency Parser](https://github.com/StarlangSoftware/TurkishDependencyParser-Py), [Deasciifier](https://github.com/StarlangSoftware/TurkishDeasciifier-Py), [NER](https://github.com/StarlangSoftware/TurkishNamedEntityRecognition-Py).
+- Tools for Turkish NLP provided by Starlang (Multi/Python) : [Morphological Analysis](https://github.com/StarlangSoftware/TurkishMorphologicalAnalysis-Py), [Spell Checker](https://github.com/StarlangSoftware/TurkishSpellChecker-Py), [Dependency Parser](https://github.com/StarlangSoftware/TurkishDependencyParser-Py), [Deasciifier](https://github.com/StarlangSoftware/TurkishDeasciifier-Py), [NER](https://github.com/StarlangSoftware/TurkishNamedEntityRecognition-Py).
 - [snnclsr/NER](https://github.com/snnclsr/ner) (Python) : Named Entity Recognition system for the Turkish Language.
 
 <div align="right">
@@ -50,7 +50,7 @@ Turkish NLP (Türkçe Doğal Dil İşleme) related Tools, Libraries, Models, Dat
 
 ### Multilangual Datasets:
 
-- [Amazon MASSIVE](https://www.amazon.science/blog/amazon-releases-51-language-dataset-for-language-understanding) : MASSIVE is a parallel dataset of > 1M utterances across 51 languages with annotations for the Natural Language Understanding tasks of intent prediction and slot annotation. [![][repo]](https://github.com/alexa/massive)
+- [Amazon MASSIVE](https://www.amazon.science/blog/amazon-releases-51-language-dataset-for-language-understanding) : MASSIVE is a parallel dataset of 1M utterances across 51 languages with annotations for the NLU tasks of intent prediction and slot annotation. [![][repo]](https://github.com/alexa/massive)
 - [OPUS: en-tr](https://opus.nlpl.eu/index.php?src=en&trg=tr) : OPUS is a growing collection of translated texts from the web. In the OPUS project we try to convert and align free online data, to add linguistic annotation, and to provide the community with a publicly available parallel corpus.
 - [CC-100](https://data.statmt.org/cc-100/) : Monolingual Datasets from Web Crawl Data. This corpus comprises of monolingual data for 100+ languages.
 - [OSCAR](https://oscar-corpus.com/) : is a huge multilingual corpus obtained by language classification and filtering of the Common Crawl corpus using the Ungoliant architecture.
@@ -58,7 +58,7 @@ Turkish NLP (Türkçe Doğal Dil İşleme) related Tools, Libraries, Models, Dat
 ### Treebank:
 
 - [Universal Dependencies](https://universaldependencies.org/#turkish-treebanks) : is an international cooperative project to create treebanks of the world's languages. The project seeks to develop cross-linguistically consistent treebank annotation of morphology and syntax for multiple languages. [![][repo]](https://github.com/UniversalDependencies)
-- [UD Turkish Kenet](https://universaldependencies.org/treebanks/tr_kenet/index.html) Turkish-Kenet UD Treebank consists of 18,700 manually annotated sentences and 178,700 tokens. Its corpus consists of dictionary examples. [![][repo]](https://github.com/StarlangSoftware/TurkishWordNet)
+- [UD Turkish Kenet](https://universaldependencies.org/treebanks/tr_kenet/index.html) Turkish-Kenet UD Treebank consists of 18,700 manually annotated sentences and 178,700 tokens. Its corpus consists of dictionary examples from TDK. [![][repo]](https://github.com/StarlangSoftware/TurkishWordNet)
 - [UD Turkish BOUN](https://universaldependencies.org/treebanks/tr_boun/index.html) : BOUN Treebank is created by the TABILAB and supported by TÜBİTAK. This corpus contains 9761 sentences, 121,214 tokens. [![][repo]](https://github.com/boun-tabi/UD_Turkish-BOUN)
 
 ### Other Data:
@@ -70,6 +70,8 @@ Turkish NLP (Türkçe Doğal Dil İşleme) related Tools, Libraries, Models, Dat
 - [ooguz/Bad Word Blacklist for Turkish](https://github.com/ooguz/turkce-kufur-karaliste)
 - [ahmetax/Turkish Stop Words List](https://github.com/ahmetax/trstop)
 - [NLTK - Stop Words](https://www.nltk.org/book/ch02.html#wordlist-corpora)
+- [Tatoeba: Multilingual Sentences.](https://tatoeba.org/tr/downloads)
+- [466k English Words.](https://github.com/dwyl/english-words)
 
 ### Other Sources:
 
@@ -92,7 +94,7 @@ Turkish NLP (Türkçe Doğal Dil İşleme) related Tools, Libraries, Models, Dat
 - [BOUN - Yapay Öğrenmeye Giriş - İsmail Arı Yaz Okulu 2018](https://www.youtube.com/playlist?list=PLMGWwuh6-mEcTODbE22Q1KATHeZYAQTTg)
 - [BOUN - Doğal Dil İşleme - İsmail Arı Yaz Okulu 2018](https://www.youtube.com/playlist?list=PLMGWwuh6-mEe57iOtf1uo5DgZB288l0CQ)
 - [BOUN - Konuşma / İşleme - İsmail Arı Yaz Okulu 2018](https://www.youtube.com/playlist?list=PLMGWwuh6-mEdAkjnSLbyUq7Ca21UiSi6F)
-- [BOUN - Yapay Öğrenme Yaz Okulu 2020](youtube.com/playlist?list=PLMGWwuh6-mEfmMAUoQZNfEA51RGh7bMyh)
+- [BOUN - Yapay Öğrenme Yaz Okulu 2020](https://www.youtube.com/playlist?list=PLMGWwuh6-mEfmMAUoQZNfEA51RGh7bMyh)
 - [Açık Seminer - NLP 101 Doğal Dil İşlemeye Giriş ve Uygulamalı Metin Madenciliği](https://www.youtube.com/watch?v=tm1K9ZvJXJI)
 
 ### Articles:
@@ -102,7 +104,7 @@ Turkish NLP (Türkçe Doğal Dil İşleme) related Tools, Libraries, Models, Dat
 - [Classification of News according to Age Groups Using NLP](https://dergipark.org.tr/tr/download/article-file/1140110)
 - [Açık Kaynak Doğal Dil İşleme Kütüphaneleri](https://dergipark.org.tr/tr/download/article-file/1573501)
 
-### Sample Notebooks:
+### Sample Notebooks/Snippets:
 
 - [kodiks/Turkish News Category Classification Tutorial](https://github.com/kodiks/turkish-news-classification)
 - [ezgisubasi/Turkish Tweets Sentiment Analysis](https://github.com/ezgisubasi/turkish-tweets-sentiment-analysis)
