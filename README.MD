@@ -13,6 +13,7 @@ Turkish NLP (Türkçe Doğal Dil İşleme) related Tools, Libraries, Models, Dat
 ## Tools/Libraries
 
 - [ITU Turkish NLP](http://tools.nlp.itu.edu.tr/api_usage.jsp) (Web Based & API) : Tools of Istanbul Technical University, Natural Language Processing Group.
+- [VNLP](https://github.com/vngrs-ai/vnlp) (Python) : State of the art, lightweight NLP tools for Turkish language.
 - [TDD - Tools](https://tools.tdd.ai/) (Web based) : Online tools provided by Turkish Data Depository (TDD) project.
 - [Zemberek-NLP](https://github.com/ahmetaa/zemberek-nlp) (Java) : Zemberek-NLP provides Natural Language Processing tools for Turkish.
 - [Zemberek-Python](https://github.com/Loodos/zemberek-python) (Python) : Python implementation of Zemberek.
@@ -22,7 +23,6 @@ Turkish NLP (Türkçe Doğal Dil İşleme) related Tools, Libraries, Models, Dat
 - [Turkish Stemmer](https://github.com/otuncelli/turkish-stemmer-python/) (Python) : Stemmer algorithm for Turkish language.
 - [sinKAF](https://github.com/eonurk/sinkaf) (Python) : An ML library for profanity detection in Turkish sentences.
 - [TrTokenizer](https://github.com/apdullahyayik/TrTokenizer) (Python) : Sentence and word tokenizers for the Turkish language.
-- [VNLP](https://github.com/vngrs-ai/vnlp) (Python) : State of the art, lightweight NLP tools for Turkish language.
 - Tools for Turkish NLP provided by Starlang (Multi/Python) : [Morphological Analysis](https://github.com/StarlangSoftware/TurkishMorphologicalAnalysis-Py), [Spell Checker](https://github.com/StarlangSoftware/TurkishSpellChecker-Py), [Dependency Parser](https://github.com/StarlangSoftware/TurkishDependencyParser-Py), [Deasciifier](https://github.com/StarlangSoftware/TurkishDeasciifier-Py), [NER](https://github.com/StarlangSoftware/TurkishNamedEntityRecognition-Py).
 - [snnclsr/NER](https://github.com/snnclsr/ner) (Python) : Named Entity Recognition system for the Turkish Language.
 
@@ -67,6 +67,7 @@ Turkish NLP (Türkçe Doğal Dil İşleme) related Tools, Libraries, Models, Dat
 - [Fırat University - Veri Setleri](http://buyukveri.firat.edu.tr/veri-setleri/)
 - [Bilkent Turkish Writings Dataset](https://github.com/selimfirat/bilkent-turkish-writings-dataset)
 - [170k Turkish Sentences from Wikipedia](https://www.kaggle.com/datasets/mahdinamidamirchi/turkish-sentences-dataset)
+- [Wiktionary:Frequency Lists - Turkish](https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists#Turkish)
 - [ooguz/Bad Word Blacklist for Turkish](https://github.com/ooguz/turkce-kufur-karaliste)
 - [ahmetax/Turkish Stop Words List](https://github.com/ahmetax/trstop)
 - [NLTK - Stop Words](https://www.nltk.org/book/ch02.html#wordlist-corpora)
@@ -120,6 +121,7 @@ Turkish NLP (Türkçe Doğal Dil İşleme) related Tools, Libraries, Models, Dat
 - [ITU NLP Group - Tools and Resources](http://ddi.itu.edu.tr/en/toolsandresources) : List of various tools and resources for Turkish and Turkics languages.
 - [Açık Veri Kaynakları](https://github.com/kaymal/acik-veri) : List of Turkey's open data sources. Official Institutions, Municipalities, Universities, International Institutions.
 - [Awesome Turkish NLP](https://github.com/yusufusta/awesome-turkish-nlp) : Yet another Turkish NLP list.
+- [Türkçe Yapay Zeka Kaynakları](https://github.com/deeplearningturkiye/turkce-yapay-zeka-kaynaklari) : List of AI resources in Turkish.
 
 <div align="right">
     <b><a href="#contents">↥ Back To Top</a></b>
