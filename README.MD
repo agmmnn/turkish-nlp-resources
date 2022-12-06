@@ -48,7 +48,7 @@ Turkish NLP (Türkçe Doğal Dil İşleme) related Tools, Libraries, Models, Dat
 - [ITU NLP Group - Datasets](http://tools.nlp.itu.edu.tr/Datasets) : Datasets of Istanbul Technical University, Natural Language Processing Group.
 - [Boğaziçi University TABI - NLI-TR](https://github.com/boun-tabi/NLI-TR) : The Natural Language Inference in Turkish is a set of two large scale datasets that were obtained by translating the foundational NLI corpora (SNLI and MultiNLI) using Amazon Translate.
 
-### Multilangual Datasets:
+### Multilingual Datasets:
 
 - [Amazon MASSIVE](https://www.amazon.science/blog/amazon-releases-51-language-dataset-for-language-understanding) : MASSIVE is a parallel dataset of 1M utterances across 51 languages with annotations for the NLU tasks of intent prediction and slot annotation. [![][repo]](https://github.com/alexa/massive)
 - [OPUS: en-tr](https://opus.nlpl.eu/index.php?src=en&trg=tr) : OPUS is a growing collection of translated texts from the web. In the OPUS project we try to convert and align free online data, to add linguistic annotation, and to provide the community with a publicly available parallel corpus.
