@@ -38,13 +38,18 @@ Turkish NLP (Türkçe Doğal Dil İşleme) related Tools, Libraries, Models, Dat
 - [Loodos/Turkish Language Models](https://github.com/Loodos/turkish-language-models) : In this repository, we publish Transformer based Turkish language models and related tools.
 - [Hugging Face - Models/Turkish](https://huggingface.co/models?search=turkish)
 
+### Word Embeddings
+
+- [VNLP Word Embeddings](https://vnlp.readthedocs.io/en/latest/main_classes/word_embeddings.html) : Word2Vec Turkish word embeddings.
+- [TurkishGloVe](https://github.com/inzva/Turkish-GloVe) : Turkish GloVe word embeddings.
+
 <div align="right">
     <b><a href="#contents">↥ Back To Top</a></b>
 </div>
 
 ## Datasets
 
-- [TDD - Türkçe Dil Deposu (Turkish Language Repository)](https://tdd.ai/) : The Turkish Natural Language Processing Project, one of the main projects of the Turkey Open Source Platform, aims to prepare the datasets needed for the processing of Turkish texts.
+- [TDD - Türkçe Dil Deposu (Turkish Language Repository)](https://data.tdd.ai/) : The Turkish Natural Language Processing Project, one of the main projects of the Turkey Open Source Platform, aims to prepare the datasets needed for the processing of Turkish texts.
 - [ITU NLP Group - Datasets](http://tools.nlp.itu.edu.tr/Datasets) : Datasets of Istanbul Technical University, Natural Language Processing Group.
 - [Boğaziçi University TABI - NLI-TR](https://github.com/boun-tabi/NLI-TR) : The Natural Language Inference in Turkish is a set of two large scale datasets that were obtained by translating the foundational NLI corpora (SNLI and MultiNLI) using Amazon Translate.
 
@@ -97,6 +102,7 @@ Turkish NLP (Türkçe Doğal Dil İşleme) related Tools, Libraries, Models, Dat
 - [BOUN - Konuşma / İşleme - İsmail Arı Yaz Okulu 2018](https://www.youtube.com/playlist?list=PLMGWwuh6-mEdAkjnSLbyUq7Ca21UiSi6F)
 - [BOUN - Yapay Öğrenme Yaz Okulu 2020](https://www.youtube.com/playlist?list=PLMGWwuh6-mEfmMAUoQZNfEA51RGh7bMyh)
 - [Açık Seminer - NLP 101 Doğal Dil İşlemeye Giriş ve Uygulamalı Metin Madenciliği](https://www.youtube.com/watch?v=tm1K9ZvJXJI)
+- [Starlang Yazılım Channel](https://www.youtube.com/@starlangyazilim/videos)
 
 ### Articles:
 
