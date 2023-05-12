@@ -17,6 +17,7 @@ Turkish NLP (Türkçe Doğal Dil İşleme) related Tools, Libraries, Models, Dat
 ## Tools/Libraries
 
 - [ITU Turkish NLP](http://tools.nlp.itu.edu.tr/api_usage.jsp) (Web Based & API) : Tools of Istanbul Technical University, Natural Language Processing Group.
+- [spaCy Turkish models](https://huggingface.co/turkish-nlp-suite) : spaCy Turkish models
 - [VNLP](https://github.com/vngrs-ai/vnlp) (Python) : State of the art, lightweight NLP tools for Turkish language.
 - [TDD - Tools](https://tools.tdd.ai/) (Web based) : Online tools provided by Turkish Data Depository (TDD) project.
 - [Zemberek-NLP](https://github.com/ahmetaa/zemberek-nlp) (Java) : Zemberek-NLP provides Natural Language Processing tools for Turkish.
@@ -44,6 +45,7 @@ Turkish NLP (Türkçe Doğal Dil İşleme) related Tools, Libraries, Models, Dat
 
 ### Word Embeddings
 
+- [Floret Embeddings](https://huggingface.co/turkish-nlp-suite) : Turkish Floret Embeddings, large and medium sized.
 - [VNLP Word Embeddings](https://vnlp.readthedocs.io/en/latest/main_classes/word_embeddings.html) : Word2Vec Turkish word embeddings.
 - [TurkishGloVe](https://github.com/inzva/Turkish-GloVe) : Turkish GloVe word embeddings.
 
@@ -56,6 +58,7 @@ Turkish NLP (Türkçe Doğal Dil İşleme) related Tools, Libraries, Models, Dat
 - [TDD - Türkçe Dil Deposu (Turkish Language Repository)](https://data.tdd.ai/) : The Turkish Natural Language Processing Project, one of the main projects of the Turkey Open Source Platform, aims to prepare the datasets needed for the processing of Turkish texts.
 - [ITU NLP Group - Datasets](http://tools.nlp.itu.edu.tr/Datasets) : Datasets of Istanbul Technical University, Natural Language Processing Group.
 - [Boğaziçi University TABI - NLI-TR](https://github.com/boun-tabi/NLI-TR) : The Natural Language Inference in Turkish is a set of two large scale datasets that were obtained by translating the foundational NLI corpora (SNLI and MultiNLI) using Amazon Translate.
+- [Turkish NLP Suite Datasets](https://github.com/turkish-nlp-suite) : Turkish NLP Suite Project offers diverse linguistic resources for Turkish NLP. The repo currently contains several NER datasets, medical NLP datasets and sentiment analysis datasets including movie reviews, product reviews and more.
 
 ### Multilingual Datasets:
 
@@ -107,6 +110,7 @@ Turkish NLP (Türkçe Doğal Dil İşleme) related Tools, Libraries, Models, Dat
 - [BOUN - Yapay Öğrenme Yaz Okulu 2020](https://www.youtube.com/playlist?list=PLMGWwuh6-mEfmMAUoQZNfEA51RGh7bMyh)
 - [Açık Seminer - NLP 101 Doğal Dil İşlemeye Giriş ve Uygulamalı Metin Madenciliği](https://www.youtube.com/watch?v=tm1K9ZvJXJI)
 - [Starlang Yazılım Channel](https://www.youtube.com/@starlangyazilim/videos)
+- [NLP with Duygu](https://www.youtube.com/@NLPwithDuygu)
 
 ### Articles:
 
@@ -114,6 +118,8 @@ Turkish NLP (Türkçe Doğal Dil İşleme) related Tools, Libraries, Models, Dat
 - [Türkçe Tweetler Üzerinde Otomatik Soru Tespiti](https://dergipark.org.tr/tr/download/article-file/605454)
 - [Classification of News according to Age Groups Using NLP](https://dergipark.org.tr/tr/download/article-file/1140110)
 - [Açık Kaynak Doğal Dil İşleme Kütüphaneleri](https://dergipark.org.tr/tr/download/article-file/1573501)
+- [Neden yasaklandı? Depremle ilgili Ekşi Sözlük yorumlarına NLP gözüyle bakış](https://medium.com/p/ce65ece62aea)
+- [A collection of brand new datasets for Turkish NLP](https://medium.com/p/fc83ca3c95df)
 
 ### Sample Notebooks/Snippets:
 
