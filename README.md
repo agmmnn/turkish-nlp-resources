@@ -1,10 +1,12 @@
-![](https://user-images.githubusercontent.com/16024979/164789225-7468c77e-8816-406a-9987-44aa8d47ec47.png "Türkçe Natural Language Processing, artwork: 'Mihrap, Osman Hamdi Bey'")
+![](https://user-images.githubusercontent.com/16024979/164789225-7468c77e-8816-406a-9987-44aa8d47ec47.png "Türkçe Natural Language Processing")
+
+<div align="right">
+<h6> artwork: <a href="https://en.wikipedia.org/wiki/Mihrab_(painting)">Mihrap, Osman Hamdi Bey</a>
+</div>
 
 <div align="center">
-<h2><b><a href="https://turkce.ml/">Turkish NLP Resources</a></b></h2>
+<h2><b>Turkish NLP Resources</b></h2>
 Turkish NLP (Türkçe Doğal Dil İşleme) related Tools, Libraries, Models, Datasets and other resources.
-
-<i>For Turkish: <a href="https://turkce.ml/tr/">turkce.ml/tr</a></i>
 
 <h2>Contents:</h2>
 <p> <a href="#toolslibraries">Tools/Libraries
