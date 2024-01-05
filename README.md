@@ -75,7 +75,11 @@ Turkish NLP (Türkçe Doğal Dil İşleme) related Tools, Libraries, Models, Dat
 
 ### Other Data:
 
-- [hermitdave/Frequency Word List](https://github.com/hermitdave/FrequencyWords)
+- [Turkish Song Lyrics (Türkçe Şarkı Sözleri)](https://www.kaggle.com/datasets/emreokcular/turkish-song-lyrics)
+- [Turkish Folk Song Lyrics (Türkçe Türkü Sözleri)](https://www.kaggle.com/datasets/emreokcular/turkish-folk-song-lyrics)
+- [Turkish Poems (Türkçe Şiirler)](https://www.kaggle.com/datasets/emreokcular/turkish-poems)
+- [Turkish Idioms and Proverbs (Türkçe Atasözleri ve Deyimler)](https://www.kaggle.com/datasets/emreokcular/turkish-idioms-and-proverbs)
+- [hermitdave/Frequency Word List_](https://github.com/hermitdave/FrequencyWords)
 - [Fırat University - Veri Setleri](http://buyukveri.firat.edu.tr/veri-setleri/)
 - [Bilkent Turkish Writings Dataset](https://github.com/selimfirat/bilkent-turkish-writings-dataset)
 - [170k Turkish Sentences from Wikipedia](https://www.kaggle.com/datasets/mahdinamidamirchi/turkish-sentences-dataset)
