@@ -137,6 +137,7 @@ Turkish NLP (Türkçe Doğal Dil İşleme) related Tools, Libraries, Models, Dat
 
 - [Doğal Dil İşleme (Natural Language Processing)](https://merveenoyan.medium.com/do%C4%9Fal-dil-i%CC%87%C5%9Fleme-natural-language-processing-2d7c72daf245)
 - [Bir Veri Bilimcinin Araç Çantası](https://merveenoyan.medium.com/bir-veri-bilimcinin-ara%C3%A7-%C3%A7antas%C4%B1-ca51fb5cd19e)
+- [Doğal Dil İşleme Metin Temsili Yöntemleri](https://qann.medium.com/metin-temsili-nedir-nlpde-metinleri-say%C4%B1lara-d%C3%B6n%C3%BC%C5%9Ft%C3%BCrmenin-5-temel-yolu-860859b2cc09)
 
 ### Other Lists:
 
