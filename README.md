@@ -9,29 +9,33 @@
 Turkish NLP (Türkçe Doğal Dil İşleme) related Tools, Libraries, Models, Datasets and other resources.
 
 <h2>Contents:</h2>
-<p> <a href="#toolslibraries">Tools/Libraries
-</a> | <a href="#models">Models</a> | <a
-            href="#datasets">Datasets</a> | <a href="#other-resources">Other Resources</a> </p>
-
+<p>
+<a href="#tools--libraries">Tools & Libraries</a> |
+<a href="#models">Models</a> |
+<a href="#datasets">Datasets</a> |
+<a href="#other-resources">Other Resources</a> |
+<a href="#misc">Misc</a>
+</p>
 </div>
 <br>
 
-## Tools/Libraries
+## Tools & Libraries
 
 - [ITU Turkish NLP](http://tools.nlp.itu.edu.tr/api_usage.jsp) (Web Based & API) : Tools of Istanbul Technical University, Natural Language Processing Group.
-- [spaCy Turkish models](https://huggingface.co/turkish-nlp-suite) : spaCy Turkish models
-- [VNLP](https://github.com/vngrs-ai/vnlp) (Python) : State of the art, lightweight NLP tools for Turkish language.
-- [TDD - Tools](https://tools.tdd.ai/) (Web based) : Online tools provided by Turkish Data Depository (TDD) project.
-- [Zemberek-NLP](https://github.com/ahmetaa/zemberek-nlp) (Java) : Zemberek-NLP provides Natural Language Processing tools for Turkish.
-- [Zemberek-Python](https://github.com/Loodos/zemberek-python) (Python) : Python implementation of Zemberek.
-- [Zemberek-Server](https://github.com/cbilgili/zemberek-nlp-server) (Docker) : REST Docker Server on Zemberek Turkish NLP Java Library.
-- [Mukayese](https://github.com/alisafaya/mukayese) (Python) : is a benchmarking platform for various Turkish NLP tools and tasks, ranging from Spell-checking to NLU tasks.
-- [SadedeGel](https://github.com/GlobalMaksimum/sadedegel) (Python) : is initially designed to be a library for unsupervised extraction-based news summarization using several old and new NLP techniques.
-- [Turkish Stemmer](https://github.com/otuncelli/turkish-stemmer-python/) (Python) : Stemmer algorithm for Turkish language.
-- [sinKAF](https://github.com/eonurk/sinkaf) (Python) : An ML library for profanity detection in Turkish sentences.
-- [TrTokenizer](https://github.com/apdullahyayik/TrTokenizer) (Python) : Sentence and word tokenizers for the Turkish language.
-- Tools for Turkish NLP provided by Starlang (Multi/Python) : [Morphological Analysis](https://github.com/StarlangSoftware/TurkishMorphologicalAnalysis-Py), [Spell Checker](https://github.com/StarlangSoftware/TurkishSpellChecker-Py), [Dependency Parser](https://github.com/StarlangSoftware/TurkishDependencyParser-Py), [Deasciifier](https://github.com/StarlangSoftware/TurkishDeasciifier-Py), [NER](https://github.com/StarlangSoftware/TurkishNamedEntityRecognition-Py).
-- [snnclsr/NER](https://github.com/snnclsr/ner) (Python) : Named Entity Recognition system for the Turkish Language.
+- [spaCy Turkish models](https://huggingface.co/turkish-nlp-suite) : Pre-trained Turkish models for spaCy.
+- [VNLP](https://github.com/vngrs-ai/vnlp) (Python) : State-of-the-art, lightweight NLP tools for Turkish. [![][repo]](https://github.com/vngrs-ai/vnlp)
+- [TDD - Tools](https://tools.tdd.ai/) (Web Based) : Online tools provided by the Turkish Data Depository (TDD) project.
+- [Zemberek-NLP](https://github.com/ahmetaa/zemberek-nlp) (Java) : Natural Language Processing library for Turkish. [![][repo]](https://github.com/ahmetaa/zemberek-nlp)
+- [Zemberek-Python](https://github.com/Loodos/zemberek-python) (Python) : Python implementation of Zemberek. [![][repo]](https://github.com/Loodos/zemberek-python)
+- [Zemberek-Server](https://github.com/cbilgili/zemberek-nlp-server) (Docker) : REST Docker server based on Zemberek Turkish NLP library. [![][repo]](https://github.com/cbilgili/zemberek-nlp-server)
+- [TRmorph](https://github.com/coltekin/TRmorph) (FST) : A finite-state morphological analyzer for Turkish. [![][repo]](https://github.com/coltekin/TRmorph)
+- [Mukayese](https://github.com/alisafaya/mukayese) (Python) : Benchmarking platform for various Turkish NLP tools and tasks. [![][repo]](https://github.com/alisafaya/mukayese)
+- [SadedeGel](https://github.com/GlobalMaksimum/sadedegel) (Python) : Unsupervised extraction-based news summarization tool. [![][repo]](https://github.com/GlobalMaksimum/sadedegel)
+- [Turkish Stemmer](https://github.com/otuncelli/turkish-stemmer-python/) (Python) : Stemmer algorithm for Turkish language. [![][repo]](https://github.com/otuncelli/turkish-stemmer-python/)
+- [sinKAF](https://github.com/eonurk/sinkaf) (Python) : An ML library for profanity detection in Turkish sentences. [![][repo]](https://github.com/eonurk/sinkaf)
+- [TrTokenizer](https://github.com/apdullahyayik/TrTokenizer) (Python) : Sentence and word tokenizers for the Turkish language. [![][repo]](https://github.com/apdullahyayik/TrTokenizer)
+- Tools by [Starlang](https://github.com/StarlangSoftware) (Multi/Python) : [Morphological Analysis](https://github.com/StarlangSoftware/TurkishMorphologicalAnalysis-Py), [Spell Checker](https://github.com/StarlangSoftware/TurkishSpellChecker-Py), [Dependency Parser](https://github.com/StarlangSoftware/TurkishDependencyParser-Py), [Deasciifier](https://github.com/StarlangSoftware/TurkishDeasciifier-Py), [NER](https://github.com/StarlangSoftware/TurkishNamedEntityRecognition-Py).
+- [snnclsr/NER](https://github.com/snnclsr/ner) (Python) : Named Entity Recognition system for the Turkish language. [![][repo]](https://github.com/snnclsr/ner)
 
 <div align="right">
     <b><a href="#contents">↥ Back To Top</a></b>
@@ -57,10 +61,10 @@ Turkish NLP (Türkçe Doğal Dil İşleme) related Tools, Libraries, Models, Dat
 
 ## Datasets
 
-- [TDD - Türkçe Dil Deposu (Turkish Language Repository)](https://data.tdd.ai/) : The Turkish Natural Language Processing Project, one of the main projects of the Turkey Open Source Platform, aims to prepare the datasets needed for the processing of Turkish texts.
-- [ITU NLP Group - Datasets](http://tools.nlp.itu.edu.tr/Datasets) : Datasets of Istanbul Technical University, Natural Language Processing Group.
-- [Boğaziçi University TABI - NLI-TR](https://github.com/boun-tabi/NLI-TR) : The Natural Language Inference in Turkish is a set of two large scale datasets that were obtained by translating the foundational NLI corpora (SNLI and MultiNLI) using Amazon Translate.
-- [Turkish NLP Suite Datasets](https://github.com/turkish-nlp-suite) : Turkish NLP Suite Project offers diverse linguistic resources for Turkish NLP. The repo currently contains several NER datasets, medical NLP datasets and sentiment analysis datasets including movie reviews, product reviews and more.
+- [TDD - Türkçe Dil Deposu (Turkish Language Repository)](https://data.tdd.ai/) : The Turkish Natural Language Processing Project aims to prepare foundational datasets for processing Turkish texts.
+- [ITU NLP Group - Datasets](http://tools.nlp.itu.edu.tr/Datasets) : Datasets from the Istanbul Technical University Natural Language Processing Group.
+- [Boğaziçi University TABI - NLI-TR](https://github.com/boun-tabi/NLI-TR) : Natural Language Inference datasets translated into Turkish using Amazon Translate. [![][repo]](https://github.com/boun-tabi/NLI-TR)
+- [Turkish NLP Suite Datasets](https://github.com/turkish-nlp-suite) : Diverse linguistic resources including NER, medical NLP, and sentiment analysis datasets. [![][repo]](https://github.com/turkish-nlp-suite)
 
 ### Multilingual Datasets:
 
@@ -81,16 +85,16 @@ Turkish NLP (Türkçe Doğal Dil İşleme) related Tools, Libraries, Models, Dat
 - [Turkish Folk Song Lyrics (Türkçe Türkü Sözleri)](https://www.kaggle.com/datasets/emreokcular/turkish-folk-song-lyrics)
 - [Turkish Poems (Türkçe Şiirler)](https://www.kaggle.com/datasets/emreokcular/turkish-poems)
 - [Turkish Idioms and Proverbs (Türkçe Atasözleri ve Deyimler)](https://www.kaggle.com/datasets/emreokcular/turkish-idioms-and-proverbs)
-- [hermitdave/Frequency Word List_](https://github.com/hermitdave/FrequencyWords)
+- [hermitdave/Frequency Word List](https://github.com/hermitdave/FrequencyWords)
 - [Fırat University - Veri Setleri](http://buyukveri.firat.edu.tr/veri-setleri/)
 - [Bilkent Turkish Writings Dataset](https://github.com/selimfirat/bilkent-turkish-writings-dataset)
 - [170k Turkish Sentences from Wikipedia](https://www.kaggle.com/datasets/mahdinamidamirchi/turkish-sentences-dataset)
-- [Wiktionary:Frequency Lists - Turkish](https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists#Turkish)
+- [Wiktionary: Frequency Lists - Turkish](https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists#Turkish)
 - [ooguz/Bad Word Blacklist for Turkish](https://github.com/ooguz/turkce-kufur-karaliste)
 - [ahmetax/Turkish Stop Words List](https://github.com/ahmetax/trstop)
 - [NLTK - Stop Words](https://www.nltk.org/book/ch02.html#wordlist-corpora)
-- [Tatoeba: Multilingual Sentences.](https://tatoeba.org/tr/downloads)
-- [466k English Words.](https://github.com/dwyl/english-words)
+- [Tatoeba: Multilingual Sentences](https://tatoeba.org/tr/downloads)
+- [466k English Words](https://github.com/dwyl/english-words)
 
 ### Other Sources:
 
@@ -137,21 +141,28 @@ Turkish NLP (Türkçe Doğal Dil İşleme) related Tools, Libraries, Models, Dat
 
 - [Doğal Dil İşleme (Natural Language Processing)](https://merveenoyan.medium.com/do%C4%9Fal-dil-i%CC%87%C5%9Fleme-natural-language-processing-2d7c72daf245)
 - [Bir Veri Bilimcinin Araç Çantası](https://merveenoyan.medium.com/bir-veri-bilimcinin-ara%C3%A7-%C3%A7antas%C4%B1-ca51fb5cd19e)
-- [Doğal Dil İşleme Metin Temsili Yöntemleri](https://qann.medium.com/metin-temsili-nedir-nlpde-metinleri-say%C4%B1lara-d%C3%B6n%C3%BC%C5%9Ft%C3%BCrmenin-5-temel-yolu-860859b2cc09) 
+- [Doğal Dil İşleme Metin Temsili Yöntemleri](https://qann.medium.com/metin-temsili-nedir-nlpde-metinleri-say%C4%B1lara-d%C3%B6n%C3%BC%C5%9Ft%C3%BCrmenin-5-temel-yolu-860859b2cc09)
 
 ### Other Lists:
 
-- [ITU NLP Group - Tools and Resources](http://ddi.itu.edu.tr/en/toolsandresources) : List of various tools and resources for Turkish and Turkics languages.
-- [Açık Veri Kaynakları](https://github.com/kaymal/acik-veri) : List of Turkey's open data sources. Official Institutions, Municipalities, Universities, International Institutions.
-- [Awesome Turkish NLP](https://github.com/yusufusta/awesome-turkish-nlp) : Yet another Turkish NLP list.
-- [Türkçe Yapay Zeka Kaynakları](https://github.com/deeplearningturkiye/turkce-yapay-zeka-kaynaklari) : List of AI resources in Turkish.
+- [Açık Veri Kaynakları](https://github.com/kaymal/acik-veri) : List of open data sources in Turkey (Official Institutions, Municipalities, Universities, etc.). [![][repo]](https://github.com/kaymal/acik-veri)
+- [Awesome Turkish NLP](https://github.com/yusufusta/awesome-turkish-nlp) : A curated list of Turkish NLP resources. [![][repo]](https://github.com/yusufusta/awesome-turkish-nlp)
+- [Türkçe Yapay Zeka Kaynakları](https://github.com/deeplearningturkiye/turkce-yapay-zeka-kaynaklari) : Collection of AI resources in Turkish. [![][repo]](https://github.com/deeplearningturkiye/turkce-yapay-zeka-kaynaklari)
 
 <div align="right">
     <b><a href="#contents">↥ Back To Top</a></b>
 </div>
 
-## Contrubuting
+## Misc
 
-Your contributions are welcome. If you want to contribute to this list send a _pull request_ or just open a _new issue_.
+- [Kip](https://kip-dili.github.io/) : A programming language in Turkish where grammatical case and mood are part of the type system. [![][repo]](https://github.com/kip-dili/kip)
+
+<div align="right">
+    <b><a href="#contents">↥ Back To Top</a></b>
+</div>
+
+## Contributing
+
+Your contributions are welcome! If you want to contribute to this list, send a _pull request_ or just open a _new issue_.
 
 [repo]: https://raw.githubusercontent.com/agmmnn/awesome-blender/master/imgs/github.svg
