@@ -1,56 +1,81 @@
 ![](https://user-images.githubusercontent.com/16024979/164789225-7468c77e-8816-406a-9987-44aa8d47ec47.png "Türkçe Natural Language Processing")
 
 <div align="right">
-<h6> artwork: <a href="https://en.wikipedia.org/wiki/Mihrab_(painting)">Mihrap, Osman Hamdi Bey</a>
+<i><h6> artwork: <a href="https://en.wikipedia.org/wiki/Mihrab_(painting)">Mihrap, Osman Hamdi Bey</a></h6></i>
 </div>
 
 <div align="center">
 <h2><b>Turkish NLP Resources</b></h2>
-Turkish NLP (Türkçe Doğal Dil İşleme) related Tools, Libraries, Models, Datasets and other resources.
+Turkish NLP (Türkçe Doğal Dil İşleme) Tools, Libraries, Models, Datasets, and other resources.
+<br>
+<i>Aligned with new NLP Trends: Generative AI, Retrieval Systems, and Evaluation</i>
 
 <h2>Contents:</h2>
-<p>
+<p> |
+<a href="#generative-ai--llms">Generative AI & LLMs</a> |
+<a href="#retrieval--semantic-search-rag">Retrieval & RAG</a> |
+<a href="#evaluation--benchmarks">Evaluation & Benchmarks</a> |
+<a href="#encoder-models">Encoder Models</a> |
 <a href="#tools--libraries">Tools & Libraries</a> |
-<a href="#models">Models</a> |
 <a href="#datasets">Datasets</a> |
-<a href="#other-resources">Other Resources</a> |
-<a href="#misc">Misc</a>
+<a href="#community--learning">Community & Learning</a> |
+<a href="#misc">Misc</a> |
 </p>
 </div>
 <br>
 
-## Tools & Libraries
+## Generative AI & LLMs
 
-- [ITU Turkish NLP](http://tools.nlp.itu.edu.tr/api_usage.jsp) (Web Based & API) : Tools of Istanbul Technical University, Natural Language Processing Group.
-- [spaCy Turkish models](https://huggingface.co/turkish-nlp-suite) : Pre-trained Turkish models for spaCy.
-- [VNLP](https://github.com/vngrs-ai/vnlp) (Python) : State-of-the-art, lightweight NLP tools for Turkish. [![][repo]](https://github.com/vngrs-ai/vnlp)
-- [TDD - Tools](https://tools.tdd.ai/) (Web Based) : Online tools provided by the Turkish Data Depository (TDD) project.
-- [Zemberek-NLP](https://github.com/ahmetaa/zemberek-nlp) (Java) : Natural Language Processing library for Turkish. [![][repo]](https://github.com/ahmetaa/zemberek-nlp)
-- [Zemberek-Python](https://github.com/Loodos/zemberek-python) (Python) : Python implementation of Zemberek. [![][repo]](https://github.com/Loodos/zemberek-python)
-- [Zemberek-Server](https://github.com/cbilgili/zemberek-nlp-server) (Docker) : REST Docker server based on Zemberek Turkish NLP library. [![][repo]](https://github.com/cbilgili/zemberek-nlp-server)
-- [TRmorph](https://github.com/coltekin/TRmorph) (FST) : A finite-state morphological analyzer for Turkish. [![][repo]](https://github.com/coltekin/TRmorph)
-- [Mukayese](https://github.com/alisafaya/mukayese) (Python) : Benchmarking platform for various Turkish NLP tools and tasks. [![][repo]](https://github.com/alisafaya/mukayese)
-- [SadedeGel](https://github.com/GlobalMaksimum/sadedegel) (Python) : Unsupervised extraction-based news summarization tool. [![][repo]](https://github.com/GlobalMaksimum/sadedegel)
-- [Turkish Stemmer](https://github.com/otuncelli/turkish-stemmer-python/) (Python) : Stemmer algorithm for Turkish language. [![][repo]](https://github.com/otuncelli/turkish-stemmer-python/)
-- [sinKAF](https://github.com/eonurk/sinkaf) (Python) : An ML library for profanity detection in Turkish sentences. [![][repo]](https://github.com/eonurk/sinkaf)
-- [TrTokenizer](https://github.com/apdullahyayik/TrTokenizer) (Python) : Sentence and word tokenizers for the Turkish language. [![][repo]](https://github.com/apdullahyayik/TrTokenizer)
-- Tools by [Starlang](https://github.com/StarlangSoftware) (Multi/Python) : [Morphological Analysis](https://github.com/StarlangSoftware/TurkishMorphologicalAnalysis-Py), [Spell Checker](https://github.com/StarlangSoftware/TurkishSpellChecker-Py), [Dependency Parser](https://github.com/StarlangSoftware/TurkishDependencyParser-Py), [Deasciifier](https://github.com/StarlangSoftware/TurkishDeasciifier-Py), [NER](https://github.com/StarlangSoftware/TurkishNamedEntityRecognition-Py).
-- [snnclsr/NER](https://github.com/snnclsr/ner) (Python) : Named Entity Recognition system for the Turkish language. [![][repo]](https://github.com/snnclsr/ner)
+### Foundation & Chat Models
+
+_Language models specific to Turkish, ranging from adaptations of open weights (Llama, Mistral) to native pretrained models._
+
+- [Trendyol LLMs](https://huggingface.co/Trendyol/models) : Bilingual (TR/EN) models ranging from 7B to 70B parameters, including specialized cybersecurity variants.
+- [Kumru-2B](https://huggingface.co/vngrs-ai/Kumru-2B) : Decoder-only foundational models trained from scratch for Turkish with a native tokenizer. [blog](https://medium.com/vngrs/kumru-llm-34d1628cfd93)
+- [TURNA](https://huggingface.co/boun-tabi-LMG/TURNA) : A 1.1B parameter foundational model for NLU and generation.
+- [Cosmos Turkish Llama](https://huggingface.co/ytu-ce-cosmos/Turkish-Llama-8b-DPO-v0.1) : The Cosmos Llama is designed for text generation tasks, trained with DPO for coherent Turkish continuation.
+- [Kanarya-2b](https://huggingface.co/asafaya/kanarya-2b) : Turkish GPT-J model trained on large-scale corpora.
+- [Turkcell-LLM-7b-v1](https://huggingface.co/TURKCELL/Turkcell-LLM-7b-v1) : Extended version of Mistral fine-tuned on Turkish instruction sets.
+- [WiroAI/wiroai-turkish-llm-9b](https://huggingface.co/WiroAI/wiroai-turkish-llm-9b) : Robust language models adapted to Turkish culture and context.
+- [Kocdigital-LLM-8b-v0.1](https://huggingface.co/KOCDIGITAL/Kocdigital-LLM-8b-v0.1) : Fine-tuned version of Llama3 8b for Turkish.
+
+### Domain Specific LLMs
+
+_Models adapted for specific verticals (Legal, Medical, Finance)._
+
+- [Mecellem](https://huggingface.co/collections/newmindai/mecellem-models) : Specialized ModernBERT-based models for the Turkish legal domain. [arxiv](https://arxiv.org/abs/2601.16018)
+
+### LLM Integrations (MCP Servers)
+
+_Model Context Protocol (MCP) servers enabling AI agents to interact with Turkish data sources._
+
+- [Borsa MCP](https://github.com/saidsurucu/borsa-mcp) : Istanbul Stock Exchange (BIST) and investment fund data.
+- [Yargı MCP](https://github.com/saidsurucu/yargi-mcp) : Search for Turkish Legal Databases (Yargıtay, Danıştay).
+- [Mevzuat MCP](https://github.com/saidsurucu/mevzuat-mcp) : Search Turkish Legislation (laws, regulations).
+- [YÖK Tez MCP](https://github.com/saidsurucu/yoktez-mcp) : Turkish National Thesis Center (YÖK Tez) search.
+- [YÖK Atlas MCP](https://github.com/saidsurucu/yokatlas-mcp) : YÖK Atlas higher education and ranking data.
 
 <div align="right">
     <b><a href="#contents">↥ Back To Top</a></b>
 </div>
 
-## Models
+## Retrieval & Semantic Search (RAG)
 
-- [BERTurk](https://huggingface.co/dbmdz/bert-base-turkish-cased) : Turkish BERT/DistilBERT, ELECTRA and ConvBERT models. [![][repo]](https://github.com/stefan-it/turkish-bert)
-- [ELMO For ManyLangs](https://github.com/HIT-SCIR/ELMoForManyLangs) : Pre-trained ELMo Representations for Many Languages.
-- [Fasttext - Word Vector](https://fasttext.cc/docs/en/crawl-vectors.html) : Pre-trained word vectors for 157 languages, trained on Common Crawl and Wikipedia using fastText.
-- [Loodos/Turkish Language Models](https://github.com/Loodos/turkish-language-models) : In this repository, we publish Transformer based Turkish language models and related tools.
-- [Hugging Face - Models/Turkish](https://huggingface.co/models?search=turkish)
+_Crucial for RAG (Retrieval Augmented Generation) pipelines, moving beyond keyword search._
 
-### Word Embeddings
+### Late-Interaction Models
 
+_Late-interaction models (ColBERT) are specifically designed for high-performance retrieval tasks._
+
+- [TurkColBERT](https://huggingface.co/collections/newmindai/turkcolbert-turkish-late-interaction-models) : Benchmark and collection of token-level matching models for high-performance retrieval. [arxiv](https://arxiv.org/abs/2511.16528), [blog](https://huggingface.co/blog/newmindai/late-interaction-models)
+
+### Embedding Models
+
+_Embedding models for semantic search and retrieval._
+
+- [TurkEmbed4Retrieval](https://huggingface.co/newmindai/TurkEmbed4Retrieval) : Specialized embedding model for Turkish retrieval tasks.
+- [Mursit-Large-TR-Retrieval](https://huggingface.co/newmindai/Mursit-Large-TR-Retrieval) : Late-interaction retrieval model for Turkish.
+- [TY-ecomm-embed-multilingual-base-v1.2.0](https://huggingface.co/Trendyol/TY-ecomm-embed-multilingual-base-v1.2.0) : Multilingual e-commerce embeddings.
 - [Floret Embeddings](https://huggingface.co/turkish-nlp-suite) : Turkish Floret Embeddings, large and medium sized.
 - [VNLP Word Embeddings](https://vnlp.readthedocs.io/en/latest/main_classes/word_embeddings.html) : Word2Vec Turkish word embeddings.
 - [TurkishGloVe](https://github.com/inzva/Turkish-GloVe) : Turkish GloVe word embeddings.
@@ -59,44 +84,105 @@ Turkish NLP (Türkçe Doğal Dil İşleme) related Tools, Libraries, Models, Dat
     <b><a href="#contents">↥ Back To Top</a></b>
 </div>
 
+## Evaluation & Benchmarks
+
+_Leaderboards and datasets to validate model performance in Turkish._
+
+- [Mezura](https://huggingface.co/spaces/newmindai/Mezura) : Leaderboard focusing on human evaluation (ELO) and RAG performance.
+- [Mizan](https://huggingface.co/spaces/newmindai/Mizan) : Embedding model leaderboard for retrieval and clustering tasks.
+- [TurkBench](https://huggingface.co/spaces/TurkBench/TurkBench) : Comprehensive generative LLM benchmark with 21 subtasks. [arxiv](https://arxiv.org/abs/2601.07020)
+- [Cetvel](https://huggingface.co/spaces/KUIS-AI/Cetvel) : A 26-task benchmark including translation, summarization, and correction.
+- [TR-MMLU](https://github.com/NovusResearch/TR-MMLU) : Evaluation framework with 6,200 Turkish-specific multiple-choice questions.
+- [TrGLUE](https://github.com/turkish-nlp-suite/TrGLUE) : Turkish-native corpora curated for GLUE-style evaluations.
+
+<div align="right">
+    <b><a href="#contents">↥ Back To Top</a></b>
+</div>
+
+## Encoder Models
+
+_Traditional Transformer models (BERT, RoBERTa, etc.) and Word Vectors._
+
+- [BERTurk](https://huggingface.co/dbmdz/bert-base-turkish-cased) : Turkish BERT/DistilBERT, ELECTRA and ConvBERT models.
+- [TurkishBERTweet](https://huggingface.co/VRLLab/TurkishBERTweet) : A BERTweet model fine-tuned on Turkish tweets.
+- [Loodos/Turkish Language Models](https://github.com/Loodos/turkish-language-models) : Transformer based Turkish language models.
+- [ELMO For ManyLangs](https://github.com/HIT-SCIR/ELMoForManyLangs) : Pre-trained ELMo Representations.
+- [Fasttext - Word Vector](https://fasttext.cc/docs/en/crawl-vectors.html) : Pre-trained word vectors for 157 languages.
+
+<div align="right">
+    <b><a href="#contents">↥ Back To Top</a></b>
+</div>
+
+## Tools & Libraries
+
+_Core libraries for morphological analysis, tokenization, and processing._
+
+- [VNLP](https://github.com/vngrs-ai/vnlp) (Python) : State-of-the-art, lightweight NLP tools for Turkish.
+- [Zemberek-NLP](https://github.com/ahmetaa/zemberek-nlp) (Java) : The veteran NLP library for Turkish (Morphology, Spell Check, etc.).
+- [Zemberek-Python](https://github.com/Loodos/zemberek-python) (Python) : Python wrapper/implementation of Zemberek.
+- [Zemberek-Server](https://github.com/cbilgili/zemberek-nlp-server) (Docker) : REST Docker server for Zemberek.
+- [TRmorph](https://github.com/coltekin/TRmorph) (FST) : Finite-state morphological analyzer.
+- [spaCy Turkish models](https://huggingface.co/turkish-nlp-suite) : Pre-trained Turkish pipelines for spaCy.
+- [Starlang Tools](https://github.com/StarlangSoftware) (Python) : Comprehensive suite (Morphology, Spell Check, Dependency Parsing, Deasciifier, NER).
+- [ITU Turkish NLP](http://tools.nlp.itu.edu.tr/api_usage.jsp) (Web/API) : Tools from ITU Natural Language Processing Group.
+- [Nuve](https://github.com/hrzafer/nuve) (C#) : Turkish NLP library for morphological analysis.
+- [SadedeGel](https://github.com/GlobalMaksimum/sadedegel) (Python) : Extraction-based news summarization.
+- [Turkish Stemmer](https://github.com/otuncelli/turkish-stemmer-python/) (Python) : Stemming algorithm.
+- [sinKAF](https://github.com/eonurk/sinkaf) (Python) : Profanity detection library.
+- [TrTokenizer](https://github.com/apdullahyayik/TrTokenizer) (Python) : Sentence and word tokenizers.
+- [snnclsr/NER](https://github.com/snnclsr/ner) (Python) : Named Entity Recognition system.
+- [Helsinki-NLP Translation](https://huggingface.co/Helsinki-NLP/opus-mt-tc-big-en-tr) : Neural machine translation (EN-TR).
+
+<div align="right">
+    <b><a href="#contents">↥ Back To Top</a></b>
+</div>
+
 ## Datasets
 
-- [TDD - Türkçe Dil Deposu (Turkish Language Repository)](https://data.tdd.ai/) : The Turkish Natural Language Processing Project aims to prepare foundational datasets for processing Turkish texts.
-- [ITU NLP Group - Datasets](http://tools.nlp.itu.edu.tr/Datasets) : Datasets from the Istanbul Technical University Natural Language Processing Group.
-- [Boğaziçi University TABI - NLI-TR](https://github.com/boun-tabi/NLI-TR) : Natural Language Inference datasets translated into Turkish using Amazon Translate. [![][repo]](https://github.com/boun-tabi/NLI-TR)
-- [Turkish NLP Suite Datasets](https://github.com/turkish-nlp-suite) : Diverse linguistic resources including NER, medical NLP, and sentiment analysis datasets. [![][repo]](https://github.com/turkish-nlp-suite)
+_Extensive corpora and collections for training and evaluation._
 
-### Multilingual Datasets:
+### Instruction Tuning & Dialogue (LLM)
 
-- [Amazon MASSIVE](https://www.amazon.science/blog/amazon-releases-51-language-dataset-for-language-understanding) : MASSIVE is a parallel dataset of 1M utterances across 51 languages with annotations for the NLU tasks of intent prediction and slot annotation. [![][repo]](https://github.com/alexa/massive)
-- [OPUS: en-tr](https://opus.nlpl.eu/index.php?src=en&trg=tr) : OPUS is a growing collection of translated texts from the web. In the OPUS project we try to convert and align free online data, to add linguistic annotation, and to provide the community with a publicly available parallel corpus.
-- [CC-100](https://data.statmt.org/cc-100/) : Monolingual Datasets from Web Crawl Data. This corpus comprises of monolingual data for 100+ languages.
-- [OSCAR](https://oscar-corpus.com/) : is a huge multilingual corpus obtained by language classification and filtering of the Common Crawl corpus using the Ungoliant architecture.
+- [InstrucTurca](https://huggingface.co/datasets/turkish-nlp-suite/InstrucTurca) : 2.58M instruction samples (OpenOrca/MedText translations).
+- [Turkish-Alpaca](https://huggingface.co/datasets/TFLai/Turkish-Alpaca) : 52k cleaned/verified instruction following samples.
+- [WikiRAG-TR](https://huggingface.co/datasets/Metin/WikiRAG-TR) : Questions derived from Turkish Wikipedia for RAG.
+- [turkish-math-186k](https://huggingface.co/datasets/ituperceptron/turkish-math-186k) : Large-scale dataset for mathematical reasoning.
+- [Boğaziçi University TABI - NLI-TR](https://github.com/boun-tabi/NLI-TR) : Natural Language Inference datasets.
 
-### Treebank:
+### Multimodal & Vision
 
-- [Universal Dependencies](https://universaldependencies.org/#turkish-treebanks) : is an international cooperative project to create treebanks of the world's languages. The project seeks to develop cross-linguistically consistent treebank annotation of morphology and syntax for multiple languages. [![][repo]](https://github.com/UniversalDependencies)
-- [UD Turkish Kenet](https://universaldependencies.org/treebanks/tr_kenet/index.html) Turkish-Kenet UD Treebank consists of 18,700 manually annotated sentences and 178,700 tokens. Its corpus consists of dictionary examples from TDK. [![][repo]](https://github.com/StarlangSoftware/TurkishWordNet)
-- [UD Turkish BOUN](https://universaldependencies.org/treebanks/tr_boun/index.html) : BOUN Treebank is created by the TABILAB and supported by TÜBİTAK. This corpus contains 9761 sentences, 121,214 tokens. [![][repo]](https://github.com/boun-tabi/UD_Turkish-BOUN)
+- [TurkishLLaVA OCR Enhancement](https://huggingface.co/datasets/ytu-ce-cosmos/turkce-kitap) : Specialized books collection for OCR improvement.
+- [unsloth-pmc-vqa-tr](https://huggingface.co/datasets/nezahatkorkmaz/unsloth-pmc-vqa-tr) : Turkish PMC-VQA (Medical Visual Question Answering).
+- [BosphorusSign22k](https://ogulcanozdemir.github.io/bosphorussign22k/) : Turkish Sign Language Recognition (SLR) benchmark.
 
-### Other Data:
+### Major Corpora & Collections
 
-- [Turkish Song Lyrics (Türkçe Şarkı Sözleri)](https://www.kaggle.com/datasets/emreokcular/turkish-song-lyrics)
-- [Turkish Folk Song Lyrics (Türkçe Türkü Sözleri)](https://www.kaggle.com/datasets/emreokcular/turkish-folk-song-lyrics)
-- [Turkish Poems (Türkçe Şiirler)](https://www.kaggle.com/datasets/emreokcular/turkish-poems)
-- [Turkish Idioms and Proverbs (Türkçe Atasözleri ve Deyimler)](https://www.kaggle.com/datasets/emreokcular/turkish-idioms-and-proverbs)
-- [hermitdave/Frequency Word List](https://github.com/hermitdave/FrequencyWords)
-- [Fırat University - Veri Setleri](http://buyukveri.firat.edu.tr/veri-setleri/)
-- [Bilkent Turkish Writings Dataset](https://github.com/selimfirat/bilkent-turkish-writings-dataset)
-- [170k Turkish Sentences from Wikipedia](https://www.kaggle.com/datasets/mahdinamidamirchi/turkish-sentences-dataset)
-- [Wiktionary: Frequency Lists - Turkish](https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists#Turkish)
-- [ooguz/Bad Word Blacklist for Turkish](https://github.com/ooguz/turkce-kufur-karaliste)
-- [ahmetax/Turkish Stop Words List](https://github.com/ahmetax/trstop)
-- [NLTK - Stop Words](https://www.nltk.org/book/ch02.html#wordlist-corpora)
-- [Tatoeba: Multilingual Sentences](https://tatoeba.org/tr/downloads)
-- [466k English Words](https://github.com/dwyl/english-words)
+- [Cosmos Datasets](https://huggingface.co/ytu-ce-cosmos/datasets) : Extensive datasets from YTU Cosmos Research Group.
+- [Trendyol Datasets](https://huggingface.co/Trendyol/datasets) : E-commerce and general datasets from Trendyol.
+- [Turkish National Corpus (TNC)](https://www.tnc.org.tr/) : Balanced, large scale (50M words) general-purpose corpus.
+- [TS Corpus](https://tscorpus.com/) : Independent project for Turkish corpora and datasets.
+- [TDD - Turkish Data Depository](https://data.tdd.ai/) : Foundational datasets.
+- [METU Corpora](https://ii.metu.edu.tr/metu-corpora-research-group) : MTC and Discourse Bank.
 
-### Other Sources:
+### Treebanks (Syntax & Morphology)
+
+- [Universal Dependencies (UD)](https://universaldependencies.org/#turkish-treebanks) : Standardized cross-linguistic treebanks.
+- [UD Turkish BOUN](https://universaldependencies.org/treebanks/tr_boun/index.html) : 9.7k sentences, created by TABILAB.
+- [UD Turkish Kenet](https://universaldependencies.org/treebanks/tr_kenet/index.html) : 18.7k sentences, based on TDK dictionary.
+- [UD Ottoman Turkish](https://github.com/UniversalDependencies/UD_Ottoman_Turkish-BOUN) : Historical treebank.
+- [METU-Sabancı Treebank](https://web.itu.edu.tr/gulsenc/treebanks.html) : Syntactic analysis resources.
+
+### Sentiment, General NLP & Others
+
+- [SentiTurca](https://huggingface.co/datasets/turkish-nlp-suite/SentiTurca) : Sentiment analysis benchmark.
+- [FSMTSAD](https://github.com/kevserbusrayildirim/FSMTSAD) : Balanced sentiment dataset (Hotel, Movie, Product).
+- [HisTR](https://huggingface.co/datasets/Saziye/HisTR) : NER dataset for historical Turkish.
+- [Turkish NLP Suite Datasets](https://github.com/turkish-nlp-suite) : NER, medical, and sentiment resources.
+- [Amazon MASSIVE](https://github.com/alexa/massive) & [OPUS](https://opus.nlpl.eu/) : Multilingual resources.
+- [Common Crawl (CC-100)](https://data.statmt.org/cc-100/) & [OSCAR](https://oscar-corpus.com/) : Large/Web-scale corpora.
+- **Miscellaneous**: [Song Lyrics](https://www.kaggle.com/datasets/emreokcular/turkish-song-lyrics), [Poems](https://www.kaggle.com/datasets/emreokcular/turkish-poems), [Idioms](https://www.kaggle.com/datasets/emreokcular/turkish-idioms-and-proverbs), [Stop Words](https://github.com/ahmetax/trstop), [Bad Word Blacklist](https://github.com/ooguz/turkce-kufur-karaliste), [Tatoeba: Multilingual Sentences](https://tatoeba.org/tr/downloads)
+
+### Dataset Search
 
 - [Google Dataset Search/Turkish](https://datasetsearch.research.google.com/search?src=0&query=turkish)
 - [Kaggle - Datasets/Turkish](https://www.kaggle.com/search?q=turkish+in:datasets)
@@ -106,48 +192,25 @@ Turkish NLP (Türkçe Doğal Dil İşleme) related Tools, Libraries, Models, Dat
     <b><a href="#contents">↥ Back To Top</a></b>
 </div>
 
-## Other Resources
+## Community & Learning
 
-### Books:
+### YouTube Channels
 
-- [Turkish Natural Language Processing (Theory and Applications of Natural Language Processing)](https://www.amazon.com/Turkish-Natural-Language-Processing-Applications/dp/331990163X)
-
-### Videos:
-
-- [BOUN - Yapay Öğrenmeye Giriş - İsmail Arı Yaz Okulu 2018](https://www.youtube.com/playlist?list=PLMGWwuh6-mEcTODbE22Q1KATHeZYAQTTg)
-- [BOUN - Doğal Dil İşleme - İsmail Arı Yaz Okulu 2018](https://www.youtube.com/playlist?list=PLMGWwuh6-mEe57iOtf1uo5DgZB288l0CQ)
-- [BOUN - Konuşma / İşleme - İsmail Arı Yaz Okulu 2018](https://www.youtube.com/playlist?list=PLMGWwuh6-mEdAkjnSLbyUq7Ca21UiSi6F)
-- [BOUN - Yapay Öğrenme Yaz Okulu 2020](https://www.youtube.com/playlist?list=PLMGWwuh6-mEfmMAUoQZNfEA51RGh7bMyh)
-- [Açık Seminer - NLP 101 Doğal Dil İşlemeye Giriş ve Uygulamalı Metin Madenciliği](https://www.youtube.com/watch?v=tm1K9ZvJXJI)
-- [Starlang Yazılım Channel](https://www.youtube.com/@starlangyazilim/videos)
+- [KUIS AI](https://www.youtube.com/@kuisaicenter/videos)
+- [Türkiye Yapay Zeka İnisiyatifi](https://www.youtube.com/c/T%C3%BCrkiyeYapayZeka%C4%B0nisiyatifi)
+- [Trendyol Tech](https://www.youtube.com/@TrendyolTech/videos)
+- [Starlang Yazılım](https://www.youtube.com/@starlangyazilim/videos)
 - [NLP with Duygu](https://www.youtube.com/@NLPwithDuygu)
 
-### Articles:
+### Awesome Lists
 
-- [Türkçe ve Doğal Dil İşleme](https://dergipark.org.tr/tr/download/article-file/207207)
-- [Türkçe Tweetler Üzerinde Otomatik Soru Tespiti](https://dergipark.org.tr/tr/download/article-file/605454)
-- [Classification of News according to Age Groups Using NLP](https://dergipark.org.tr/tr/download/article-file/1140110)
-- [Açık Kaynak Doğal Dil İşleme Kütüphaneleri](https://dergipark.org.tr/tr/download/article-file/1573501)
-- [Neden yasaklandı? Depremle ilgili Ekşi Sözlük yorumlarına NLP gözüyle bakış](https://medium.com/p/ce65ece62aea)
-- [A collection of brand new datasets for Turkish NLP](https://medium.com/p/fc83ca3c95df)
+- [Awesome Turkish NLP](https://github.com/yusufusta/awesome-turkish-nlp) : Alternative curated list.
+- [Awesome Turkish Language Models](https://github.com/kesimeg/awesome-turkish-language-models) : Curated list of models.
+- [Açık Veri Kaynakları](https://github.com/kaymal/acik-veri) : Open data sources in Turkey.
 
-### Sample Notebooks/Snippets:
+### Educational Resources
 
-- [kodiks/Turkish News Category Classification Tutorial](https://github.com/kodiks/turkish-news-classification)
-- [ezgisubasi/Turkish Tweets Sentiment Analysis](https://github.com/ezgisubasi/turkish-tweets-sentiment-analysis)
-- [merveenoyan/NLP için Derlediğim Fonksiyonlar](https://github.com/merveenoyan/NLP-Helpers)
-
-### Blog Posts:
-
-- [Doğal Dil İşleme (Natural Language Processing)](https://merveenoyan.medium.com/do%C4%9Fal-dil-i%CC%87%C5%9Fleme-natural-language-processing-2d7c72daf245)
-- [Bir Veri Bilimcinin Araç Çantası](https://merveenoyan.medium.com/bir-veri-bilimcinin-ara%C3%A7-%C3%A7antas%C4%B1-ca51fb5cd19e)
-- [Doğal Dil İşleme Metin Temsili Yöntemleri](https://qann.medium.com/metin-temsili-nedir-nlpde-metinleri-say%C4%B1lara-d%C3%B6n%C3%BC%C5%9Ft%C3%BCrmenin-5-temel-yolu-860859b2cc09)
-
-### Other Lists:
-
-- [Açık Veri Kaynakları](https://github.com/kaymal/acik-veri) : List of open data sources in Turkey (Official Institutions, Municipalities, Universities, etc.). [![][repo]](https://github.com/kaymal/acik-veri)
-- [Awesome Turkish NLP](https://github.com/yusufusta/awesome-turkish-nlp) : A curated list of Turkish NLP resources. [![][repo]](https://github.com/yusufusta/awesome-turkish-nlp)
-- [Türkçe Yapay Zeka Kaynakları](https://github.com/deeplearningturkiye/turkce-yapay-zeka-kaynaklari) : Collection of AI resources in Turkish. [![][repo]](https://github.com/deeplearningturkiye/turkce-yapay-zeka-kaynaklari)
+- [Turkish Natural Language Processing - Kemal Oflazer](https://www.amazon.com/Turkish-Natural-Language-Processing-Applications/dp/331990163X)
 
 <div align="right">
     <b><a href="#contents">↥ Back To Top</a></b>
@@ -155,7 +218,7 @@ Turkish NLP (Türkçe Doğal Dil İşleme) related Tools, Libraries, Models, Dat
 
 ## Misc
 
-- [Kip](https://kip-dili.github.io/) : A programming language in Turkish where grammatical case and mood are part of the type system. [![][repo]](https://github.com/kip-dili/kip)
+- [Kip](https://kip-dili.github.io/) : A programming language in Turkish based on case and mood.
 
 <div align="right">
     <b><a href="#contents">↥ Back To Top</a></b>
@@ -164,5 +227,3 @@ Turkish NLP (Türkçe Doğal Dil İşleme) related Tools, Libraries, Models, Dat
 ## Contributing
 
 Your contributions are welcome! If you want to contribute to this list, send a _pull request_ or just open a _new issue_.
-
-[repo]: https://raw.githubusercontent.com/agmmnn/awesome-blender/master/imgs/github.svg
