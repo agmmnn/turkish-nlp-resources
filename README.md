@@ -28,7 +28,7 @@ Turkish NLP (Türkçe Doğal Dil İşleme) Tools, Libraries, Models, Datasets, a
 
 ### Foundation & Chat Models
 
-_Language models specific to Turkish, ranging from adaptations of open weights (Llama, Mistral) to native pretrained models._
+> _Language models specific to Turkish, ranging from adaptations of open weights (Llama, Mistral) to native pretrained models._
 
 - [Trendyol LLMs](https://huggingface.co/Trendyol/models) : Bilingual (TR/EN) models ranging from 7B to 70B parameters, including specialized cybersecurity variants.
 - [Kumru-2B](https://huggingface.co/vngrs-ai/Kumru-2B) : Decoder-only foundational models trained from scratch for Turkish with a native tokenizer. [blog](https://medium.com/vngrs/kumru-llm-34d1628cfd93)
@@ -41,13 +41,13 @@ _Language models specific to Turkish, ranging from adaptations of open weights (
 
 ### Domain Specific LLMs
 
-_Models adapted for specific verticals (Legal, Medical, Finance)._
+> _Models adapted for specific verticals (Legal, Medical, Finance)._
 
 - [Mecellem](https://huggingface.co/collections/newmindai/mecellem-models) : Specialized ModernBERT-based models for the Turkish legal domain. [arxiv](https://arxiv.org/abs/2601.16018)
 
 ### LLM Integrations (MCP Servers)
 
-_Model Context Protocol (MCP) servers enabling AI agents to interact with Turkish data sources._
+> _Model Context Protocol (MCP) servers enabling AI agents to interact with Turkish data sources._
 
 - [Borsa MCP](https://github.com/saidsurucu/borsa-mcp) : Istanbul Stock Exchange (BIST) and investment fund data.
 - [Yargı MCP](https://github.com/saidsurucu/yargi-mcp) : Search for Turkish Legal Databases (Yargıtay, Danıştay).
@@ -61,17 +61,17 @@ _Model Context Protocol (MCP) servers enabling AI agents to interact with Turkis
 
 ## Retrieval & Semantic Search (RAG)
 
-_Crucial for RAG (Retrieval Augmented Generation) pipelines, moving beyond keyword search._
+> _Crucial for RAG (Retrieval Augmented Generation) pipelines, moving beyond keyword search._
 
 ### Late-Interaction Models
 
-_Late-interaction models (ColBERT) are specifically designed for high-performance retrieval tasks._
+> _Late-interaction models (ColBERT) are specifically designed for high-performance retrieval tasks._
 
 - [TurkColBERT](https://huggingface.co/collections/newmindai/turkcolbert-turkish-late-interaction-models) : Benchmark and collection of token-level matching models for high-performance retrieval. [arxiv](https://arxiv.org/abs/2511.16528), [blog](https://huggingface.co/blog/newmindai/late-interaction-models)
 
 ### Embedding Models
 
-_Embedding models for semantic search and retrieval._
+> _Embedding models for semantic search and retrieval._
 
 - [TurkEmbed4Retrieval](https://huggingface.co/newmindai/TurkEmbed4Retrieval) : Specialized embedding model for Turkish retrieval tasks.
 - [Mursit-Large-TR-Retrieval](https://huggingface.co/newmindai/Mursit-Large-TR-Retrieval) : Late-interaction retrieval model for Turkish.
@@ -86,7 +86,7 @@ _Embedding models for semantic search and retrieval._
 
 ## Evaluation & Benchmarks
 
-_Leaderboards and datasets to validate model performance in Turkish._
+> _Leaderboards and datasets to validate model performance in Turkish._
 
 - [Mezura](https://huggingface.co/spaces/newmindai/Mezura) : Leaderboard focusing on human evaluation (ELO) and RAG performance.
 - [Mizan](https://huggingface.co/spaces/newmindai/Mizan) : Embedding model leaderboard for retrieval and clustering tasks.
@@ -101,7 +101,7 @@ _Leaderboards and datasets to validate model performance in Turkish._
 
 ## Encoder Models
 
-_Traditional Transformer models (BERT, RoBERTa, etc.) and Word Vectors._
+> _Traditional Transformer models (BERT, RoBERTa, etc.) and Word Vectors._
 
 - [BERTurk](https://huggingface.co/dbmdz/bert-base-turkish-cased) : Turkish BERT/DistilBERT, ELECTRA and ConvBERT models.
 - [TurkishBERTweet](https://huggingface.co/VRLLab/TurkishBERTweet) : A BERTweet model fine-tuned on Turkish tweets.
@@ -115,7 +115,7 @@ _Traditional Transformer models (BERT, RoBERTa, etc.) and Word Vectors._
 
 ## Tools & Libraries
 
-_Core libraries for morphological analysis, tokenization, and processing._
+> _Core libraries for morphological analysis, tokenization, and processing._
 
 - [VNLP](https://github.com/vngrs-ai/vnlp) (Python) : State-of-the-art, lightweight NLP tools for Turkish.
 - [Zemberek-NLP](https://github.com/ahmetaa/zemberek-nlp) (Java) : The veteran NLP library for Turkish (Morphology, Spell Check, etc.).
@@ -139,7 +139,7 @@ _Core libraries for morphological analysis, tokenization, and processing._
 
 ## Datasets
 
-_Extensive corpora and collections for training and evaluation._
+> _Extensive corpora and collections for training and evaluation._
 
 ### Instruction Tuning & Dialogue (LLM)
 
