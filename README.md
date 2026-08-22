@@ -174,6 +174,7 @@ Turkish NLP (Türkçe Doğal Dil İşleme) Tools, Libraries, Models, Datasets, a
 
 ### Sentiment, General NLP & Others
 
+- [Turkish EV Charging Intent Dataset](https://github.com/gokimedia/turkish-ev-charging-intents) : 192 synthetic-editorial Turkish EV queries across eight balanced intent classes with fixed train, validation, and test splits.
 - [SentiTurca](https://huggingface.co/datasets/turkish-nlp-suite/SentiTurca) : Sentiment analysis benchmark.
 - [FSMTSAD](https://github.com/kevserbusrayildirim/FSMTSAD) : Balanced sentiment dataset (Hotel, Movie, Product).
 - [HisTR](https://huggingface.co/datasets/Saziye/HisTR) : NER dataset for historical Turkish.
