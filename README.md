@@ -44,6 +44,7 @@ Turkish NLP (Türkçe Doğal Dil İşleme) Tools, Libraries, Models, Datasets, a
 > _Models adapted for specific verticals (Legal, Medical, Finance)._
 
 - [Mecellem](https://huggingface.co/collections/newmindai/mecellem-models) : Specialized ModernBERT-based models for the Turkish legal domain. [arxiv](https://arxiv.org/abs/2601.16018)
+- [Hati Glint SQL](https://huggingface.co/runelab-ai/Hati-Glint-SQL-9B-v1) : Turkish/English text-to-SQL model by RuneLab, fine-tuned from Qwen3.5-9B. [model page](https://runelab.ai/models/hati-glint-sql)
 
 ### LLM Integrations (MCP Servers)
 
@@ -68,6 +69,7 @@ Turkish NLP (Türkçe Doğal Dil İşleme) Tools, Libraries, Models, Datasets, a
 > _Late-interaction models (ColBERT) are specifically designed for high-performance retrieval tasks._
 
 - [TurkColBERT](https://huggingface.co/collections/newmindai/turkcolbert-turkish-late-interaction-models) : Benchmark and collection of token-level matching models for high-performance retrieval. [arxiv](https://arxiv.org/abs/2511.16528), [blog](https://huggingface.co/blog/newmindai/late-interaction-models)
+- [Vör-LateEmbed-TR](https://huggingface.co/runelab-ai/Vor-LateEmbed-TR-0.6B-v1) : ColBERT-style (late-interaction) Turkish retrieval model by RuneLab, fine-tuned from pplx-embed-v2-late-0.6b. [model page](https://runelab.ai/models/vor-lateembed-tr)
 
 ### Embedding Models
 
@@ -76,6 +78,7 @@ Turkish NLP (Türkçe Doğal Dil İşleme) Tools, Libraries, Models, Datasets, a
 - [TurkEmbed4Retrieval](https://huggingface.co/newmindai/TurkEmbed4Retrieval) : Specialized embedding model for Turkish retrieval tasks.
 - [Mursit-Large-TR-Retrieval](https://huggingface.co/newmindai/Mursit-Large-TR-Retrieval) : Late-interaction retrieval model for Turkish.
 - [TY-ecomm-embed-multilingual-base-v1.2.0](https://huggingface.co/Trendyol/TY-ecomm-embed-multilingual-base-v1.2.0) : Multilingual e-commerce embeddings.
+- [Kenning Turkish Legal](https://huggingface.co/runelab-ai/kenning-turkish-legal-v1) : Turkish legal-domain embedding model by RuneLab (~271M, EmbeddingGemma 2 base) for contracts, case law and legislation. [model page](https://runelab.ai/models/kenning-turkish-legal)
 - [Floret Embeddings](https://huggingface.co/turkish-nlp-suite) : Turkish Floret Embeddings, large and medium sized.
 - [VNLP Word Embeddings](https://vnlp.readthedocs.io/en/latest/main_classes/word_embeddings.html) : Word2Vec Turkish word embeddings.
 - [TurkishGloVe](https://github.com/inzva/Turkish-GloVe) : Turkish GloVe word embeddings.
