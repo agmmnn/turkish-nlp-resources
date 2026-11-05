@@ -151,6 +151,7 @@ Turkish NLP (Türkçe Doğal Dil İşleme) Tools, Libraries, Models, Datasets, a
 - [WikiRAG-TR](https://huggingface.co/datasets/Metin/WikiRAG-TR) : Questions derived from Turkish Wikipedia for RAG.
 - [turkish-math-186k](https://huggingface.co/datasets/ituperceptron/turkish-math-186k) : Large-scale dataset for mathematical reasoning.
 - [Boğaziçi University TABI - NLI-TR](https://github.com/boun-tabi/NLI-TR) : Natural Language Inference datasets.
+- [tr-wiki-qa](https://huggingface.co/datasets/Aykanugur157/tr-wiki-qa) : 75k short-answer QA pairs over Turkish Wikipedia passages, each linked to its source revision.
 
 ### Multimodal & Vision
 
