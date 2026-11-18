@@ -53,6 +53,7 @@ Turkish NLP (Türkçe Doğal Dil İşleme) Tools, Libraries, Models, Datasets, a
 - [Borsa MCP](https://github.com/saidsurucu/borsa-mcp) : Istanbul Stock Exchange (BIST) and investment fund data.
 - [Yargı MCP](https://github.com/saidsurucu/yargi-mcp) : Search for Turkish Legal Databases (Yargıtay, Danıştay).
 - [Mevzuat MCP](https://github.com/saidsurucu/mevzuat-mcp) : Search Turkish Legislation (laws, regulations).
+- [Katip Kalkan MCP](https://github.com/fikrifirat/katip/tree/main/connector) : Masks personal data (KVKK) in Turkish legal documents on the user's computer before Claude reads them.
 - [YÖK Tez MCP](https://github.com/saidsurucu/yoktez-mcp) : Turkish National Thesis Center (YÖK Tez) search.
 - [YÖK Atlas MCP](https://github.com/saidsurucu/yokatlas-mcp) : YÖK Atlas higher education and ranking data.
 
@@ -97,6 +98,7 @@ Turkish NLP (Türkçe Doğal Dil İşleme) Tools, Libraries, Models, Datasets, a
 - [Cetvel](https://huggingface.co/spaces/KUIS-AI/Cetvel) : A 26-task benchmark including translation, summarization, and correction.
 - [TR-MMLU](https://github.com/NovusResearch/TR-MMLU) : Evaluation framework with 6,200 Turkish-specific multiple-choice questions.
 - [TrGLUE](https://github.com/turkish-nlp-suite/TrGLUE) : Turkish-native corpora curated for GLUE-style evaluations.
+- [KVKK-Bench](https://huggingface.co/spaces/f1k/kvkk-bench) : Leaderboard for personal-data detection and masking in Turkish documents (court prose, forms, scans, photos).
 
 <div align="right">
     <b><a href="#contents">↥ Back To Top</a></b>
@@ -134,6 +136,7 @@ Turkish NLP (Türkçe Doğal Dil İşleme) Tools, Libraries, Models, Datasets, a
 - [sinKAF](https://github.com/eonurk/sinkaf) (Python) : Profanity detection library.
 - [TrTokenizer](https://github.com/apdullahyayik/TrTokenizer) (Python) : Sentence and word tokenizers.
 - [snnclsr/NER](https://github.com/snnclsr/ner) (Python) : Named Entity Recognition system.
+- [Katip](https://github.com/fikrifirat/katip) (Python/JS) : On-device PII detection and masking for Turkish legal documents (PDF, scans, Word, UYAP UDF), with small Turkish NER models.
 - [Helsinki-NLP Translation](https://huggingface.co/Helsinki-NLP/opus-mt-tc-big-en-tr) : Neural machine translation (EN-TR).
 
 <div align="right">
