@@ -184,6 +184,7 @@ Turkish NLP (Türkçe Doğal Dil İşleme) Tools, Libraries, Models, Datasets, a
 - [SentiTurca](https://huggingface.co/datasets/turkish-nlp-suite/SentiTurca) : Sentiment analysis benchmark.
 - [FSMTSAD](https://github.com/kevserbusrayildirim/FSMTSAD) : Balanced sentiment dataset (Hotel, Movie, Product).
 - [HisTR](https://huggingface.co/datasets/Saziye/HisTR) : NER dataset for historical Turkish.
+- [TurkPhish v2](https://huggingface.co/datasets/OsmanCan/turkphish-v2) : Leakage-audited Turkish phishing e-mail detection benchmark (2,653 e-mails, out-of-theme split). [Paper](https://doi.org/10.3390/app16168274)
 - [Turkish NLP Suite Datasets](https://github.com/turkish-nlp-suite) : NER, medical, and sentiment resources.
 - [Amazon MASSIVE](https://github.com/alexa/massive) & [OPUS](https://opus.nlpl.eu/) : Multilingual resources.
 - [Common Crawl (CC-100)](https://data.statmt.org/cc-100/) & [OSCAR](https://oscar-corpus.com/) : Large/Web-scale corpora.
