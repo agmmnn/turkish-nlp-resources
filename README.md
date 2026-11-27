@@ -90,7 +90,7 @@ Turkish NLP (Türkçe Doğal Dil İşleme) Tools, Libraries, Models, Datasets, a
 
 ## Evaluation & Benchmarks
 
-> _Leaderboards and datasets to validate model performance in Turkish._
+> _Leaderboards and  to validate model performance in Turkish._
 
 - [Mezura](https://huggingface.co/spaces/newmindai/Mezura) : Leaderboard focusing on human evaluation (ELO) and RAG performance.
 - [Mizan](https://huggingface.co/spaces/newmindai/Mizan) : Embedding model leaderboard for retrieval and clustering tasks.
@@ -155,6 +155,7 @@ Turkish NLP (Türkçe Doğal Dil İşleme) Tools, Libraries, Models, Datasets, a
 - [turkish-math-186k](https://huggingface.co/datasets/ituperceptron/turkish-math-186k) : Large-scale dataset for mathematical reasoning.
 - [Boğaziçi University TABI - NLI-TR](https://github.com/boun-tabi/NLI-TR) : Natural Language Inference datasets.
 - [tr-wiki-qa](https://huggingface.co/datasets/Aykanugur157/tr-wiki-qa) : 75k short-answer QA pairs over Turkish Wikipedia passages, each linked to its source revision.
+- [Turkish Middle School Mathematics Misconceptions Inventory](https://lemmaakademi.com/metodoloji) - 505 coded student misconception records (24 variables: topic, grade, sample size, prevalence, measurement tool, source page) extracted from 31 Turkish graduate theses and journal articles on grades 6–8 mathematics, 2006–2026. CSV, CC BY 4.0, DOI [10.5281/zenodo.22180687](https://doi.org/10.5281/zenodo.22180687).
 
 ### Multimodal & Vision
 
